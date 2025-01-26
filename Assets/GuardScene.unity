@@ -676,6 +676,14 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   CustomBlends: {fileID: 0}
+--- !u!81 &174395253
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174395242}
+  m_Enabled: 1
 --- !u!4 &182113573 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8668163012129581079, guid: a82208a4072e44a15bcd1cdec9111657, type: 3}
@@ -923,6 +931,37 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 156760323}
   m_SourcePrefab: {fileID: 100100000, guid: 3dc4a0fc57551479ca6d1e8f3582ab28, type: 3}
+--- !u!1 &455047248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 455047249}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Safe
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &455047249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455047248}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.442, y: 0, z: 7.876}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &455244842
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3009,6 +3048,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3263958735345679724, guid: 600be4a371d7c41a58b162eb0d4ffdb7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 174395248}
+    - targetCorrespondingSourceObject: {fileID: 3263958735345679724, guid: 600be4a371d7c41a58b162eb0d4ffdb7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 174395253}
   m_SourcePrefab: {fileID: 100100000, guid: 600be4a371d7c41a58b162eb0d4ffdb7, type: 3}
 --- !u!4 &1520082997 stripped
 Transform:
@@ -4299,3 +4341,4 @@ SceneRoots:
   - {fileID: 153568113}
   - {fileID: 270736630}
   - {fileID: 1520082996}
+  - {fileID: 455047249}
